@@ -1,0 +1,10 @@
+path: ./dataset
+train: images/train
+val: images/val
+
+nc: 4
+names:
+  0: game
+  1: bonus
+  2: upgrade
+  3: close_ad

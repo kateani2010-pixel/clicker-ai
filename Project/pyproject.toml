@@ -1,0 +1,15 @@
+[project]
+name = "clicker-ai"
+version = "0.1.0"
+description = "Бот-кликер для Cookie Clicker на основе YOLOv8: сбор данных, авторазметка, обучение, интеграция"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "ultralytics>=8.3",
+    "opencv-python",
+    "mss",
+    "pyautogui",
+    "albumentations>=1.4",
+    "onnx",
+    "onnxslim",
+    "playwright",
+]

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+runs/**/weights/last.pt
+runs/**/*.cache
+dataset/**/*.cache
+yolov8n.pt
+*.onnx
+dataset/images/
+dataset/labels/
+screenshots/
+debug/
+**/__MACOSX/
+!runs/detect/clicker/weights/best.onnx

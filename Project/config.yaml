@@ -1,0 +1,16 @@
+# Конфиг кастомной модели для X-AnyLabeling (автолейблинг).
+# Загрузить: Auto Labeling -> Load Custom Model -> выбрать этот файл.
+type: yolov8
+name: clicker-yolov8n
+display_name: Clicker YOLOv8n (game/bonus/upgrade/close_ad)
+model_path: runs/detect/clicker/weights/best.onnx
+input_width: 800
+input_height: 800
+score_threshold: 0.25
+nms_threshold: 0.45
+confidence_threshold: 0.25
+classes:
+  - game
+  - bonus
+  - upgrade
+  - close_ad
